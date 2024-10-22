@@ -16,6 +16,15 @@
     <string name="aNameFastApi">FAST Api</string>
     <string name="aNameDB">Database</string>
     <string name="aNamePhoneCall">Make a Phone Call</string>
+    <string name="navigateCafe">Navigate to Cafe House</string>
+    <string name="welcomeCafeHouse">Welcome to Cafe House</string>
+    <string name="cafeHouseOrderList">Cafe House Order List</string>
+    <string name="order1Txt">Enter Order One</string>
+    <string name="order2Txt">Enter Order Two</string>
+    <string name="order3Txt">Enter Order Three</string>
+    <string name="order4Txt">Enter Order Four</string>
+    <string name="backToMainActivity">Back To Main Activity</string>
+    <string name="orderNow">Order Now</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

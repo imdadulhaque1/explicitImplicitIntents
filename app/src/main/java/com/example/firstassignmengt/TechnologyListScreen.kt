@@ -17,8 +17,8 @@ import com.example.firstassignmengt.TechList
 class TechnologyListScreen : AppCompatActivity() {
     private lateinit var techListRecyclerView: RecyclerView
     private lateinit var techListAdapter: TechListAdapter
-    private val phoneNumber = "01770019346"  // Replace with the desired phone number
-    private val REQUEST_CALL_PERMISSION = 1  // Request code for permission
+    private val phoneNumber = "01770019346"
+    private val REQUEST_CALL_PERMISSION = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -27,4 +27,12 @@
         android:textSize="16sp"
         />
 
+    <Button
+        android:id="@+id/navigateCafeHouseScreen"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/navigateCafe"
+        android:textSize="16sp"
+        />
+
 </LinearLayout>
