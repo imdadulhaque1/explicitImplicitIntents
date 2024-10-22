@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+   // How can I add android-kotlin-extensions here in kotlin
 }
 
 android {
