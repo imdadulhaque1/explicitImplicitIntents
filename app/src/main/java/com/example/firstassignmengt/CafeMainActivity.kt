@@ -12,6 +12,11 @@ class CafeMainActivity : AppCompatActivity() {
     // Declare a variable for ViewBinding
     private lateinit var binding: ActivityCafeMainBinding
 
+    // Create global Key
+    companion object{
+        const val KEY = "com.example.firstassignmengt.CafeMainActivity.KEY"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -29,6 +34,13 @@ class CafeMainActivity : AppCompatActivity() {
         }
 
         binding.orderNowId.setOnClickListener{
+            val createOrder = binding.order1Id.text.toString() + " " + binding.order2Id.text.toString() + " " +
+                    binding.order3Id.text.toString() + " " + binding.order4Id.text.toString()
+
+            intent = Intent(this, CafeOrderActivity::class.java)
+            intent.putExtra(KEY, createOrder)
+            startActivity(intent)
+
             Toast.makeText(applicationContext, "Cafe Ordering...", Toast.LENGTH_SHORT).show()
         }
 
